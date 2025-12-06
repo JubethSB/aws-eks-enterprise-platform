@@ -7,21 +7,21 @@ This project demonstrates the provisioning of a **production-grade Kubernetes Cl
 * **Cloud Provider:** AWS (US-East-1 Region).
 * **Orchestration:** Amazon EKS (Elastic Kubernetes Service) v1.30.
 * **Networking:** Custom VPC with Public/Private subnets and NAT Gateways.
-* **Compute:** Managed Node Groups using EC2 (t3.medium).
+* **Compute:** Managed Node Groups using EC2 (t3.micro).
 
 ## 📸 Deployment Evidence
 
 ### 1. EKS Control Plane (Active)
 *Successfully provisioned the Managed Control Plane using Terraform.*
-![EKS Dashboard](images/eks-dashboard.png)
+![EKS Dashboard](images/eks-dashboard.jpg)
 
 ### 2. EC2 Worker Nodes
 *Two worker nodes automatically provisioned and joined to the cluster.*
-![Worker Nodes](images/worker-nodes.png)
+![Worker Nodes](images/worker-nodes.jpg)
 
 ### 3. CLI Verification
 *Verifying node health and connectivity using `kubectl`.*
-![Terminal Output](images/terminal-output.png)
+![Terminal Output](images/terminal-output.jpg)
 
 ## 🛠️ How to Deploy
 1.  **Configure AWS Credentials:**
